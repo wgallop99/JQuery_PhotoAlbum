@@ -1,0 +1,175 @@
+$orange: #E87B40;
+$blue: #4774E8;
+
+
+body {
+  margin: 0;
+  background-color: #5DFFBD;
+
+  header{
+
+    h1 {
+    text-align: center;
+    font-family: 'Codystar', cursive;
+    color: black;
+    text-decoration: none;
+    margin-top: 100px;
+    }
+  }
+
+  .container {
+
+    background-image: url(brickwall.png);
+
+    .album_container {
+      width: 100%;
+      text-align: center;
+      display: none;
+
+      ul {
+        padding: 0;
+
+        li {
+          list-style-type: none;
+          display: inline-block;
+          margin: 50px;
+          box-shadow: 10px 10px 5px #888888;
+          height: 200px;
+          border-radius: 20px;
+
+          img {
+            transition: all .5s ease;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 20px;
+          }
+
+          img:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+
+    .album1 {
+      width: 100%;
+      text-align: center;
+      display: none;
+
+      ul {
+        padding: 0;
+
+        li {
+          list-style-type: none;
+          display: inline-block;
+          margin: 50px;
+          border-radius: 20px;
+          height: 200px;
+
+          img {
+            object-fit: cover;
+            height: 200px;
+            box-shadow: 10px 10px 5px #888888;
+            border-radius: 20px;
+            transition: all .5s ease;
+          }
+
+          img:hover {
+            transform: scale(1.1);
+
+          }
+        }
+      }
+    }
+
+    .album2 {
+      width: 100%;
+      text-align: center;
+      display: none;
+
+      ul {
+        padding: 0;
+
+        li {
+          list-style-type: none;
+          display: inline-block;
+          margin: 50px;
+          height: 200px;
+          border-radius: 20px;
+
+          img {
+            object-fit: cover;
+            height: 200px;
+            box-shadow: 10px 10px 5px #888888;
+            border-radius: 20px;
+            transition: all .5s ease;
+          }
+
+          img:hover{
+            transform: scale(1.1);
+
+          }
+        }
+      }
+    }
+
+    .album3 {
+      width: 100%;
+      text-align: center;
+      display: none;
+
+      ul {
+        padding: 0;
+
+        li {
+          list-style-type: none;
+          margin: 50px;
+          display: inline-block;
+          box-shadow: 10px 10px 5px #888888;
+          height: 200px;
+          border-radius: 20px;
+
+          img {
+            object-fit: cover;
+            height: 200px;
+            box-shadow: 10px 10px 5px #888888;
+            border-radius: 20px;
+            transition: all .5s ease;
+          }
+
+          img:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+
+    .currentAlbum {
+      display: block;
+    }
+  }
+
+  footer {
+    h1 {
+      text-align: center;
+
+      a {
+      font-family: 'Codystar', cursive;
+      color: black;
+      text-decoration: none;
+    }
+      a:hover{
+        color: white;
+      }
+
+   }
+  }
+
+  .big {
+    margin-top: -50px;
+    margin-bottom: 10px;
+    min-width: 500px;
+    min-height: 500px;
+    box-shadow: none;
+  }
+}
